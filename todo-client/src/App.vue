@@ -29,7 +29,7 @@
 </template>
 
 <script>
-import { addTodoParams, getTodoParams, deleteTodoParams } from "../../out.js";
+import { addTodoParams, getTodoParams, deleteTodoParams } from "todo_pb";
 import { todoServiceClient } from "todo_grpc_web_pb";
 import "bootstrap/dist/css/bootstrap.css";
 import "bootstrap-vue/dist/bootstrap-vue.css";
