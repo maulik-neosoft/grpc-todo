@@ -44,7 +44,7 @@ export default {
     };
   },
   created: function() {
-    this.client = new todoServiceClient("http://localhost:8080", null, null);
+    this.client = new todoServiceClient("http://brian.mightyltd.com:8080", null, null);
     this.getTodos();
   },
   methods: {
